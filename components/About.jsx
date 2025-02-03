@@ -73,7 +73,7 @@ const About = ({ isDarkMode }) => {
           </ul>
 
           {/* Tools Section */}
-          <h4 className="my-6 text-gray-700 font-Ovo dark:text-white/">
+          <h4 className="my-6 text-gray-700 font-Ovo dark:text-white">
             {" "}
             Tools I Use
           </h4>
