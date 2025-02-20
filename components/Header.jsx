@@ -82,7 +82,7 @@ const Header = () => {
           transition={{ duration: 0.6, delay: 1.2 }}
           viewport={{ once: false }}
           whileHover={{ scale: 1.05 }}
-          href="/sample-resume.pdf"
+          href="https://drive.google.com/file/d/1ck8mmuvbrfko6BHgHcc7Dc1SRsc_CnMq/view?usp=sharing"
           download
           className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black"
         >

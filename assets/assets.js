@@ -78,23 +78,23 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'Africash figma-design',
+        description: 'Africash figma design clone built with next js , tailwind css etc',
         bgImage: '/work-1.png',
     },
     {
         title: 'Food Delivery app',
-        description: 'Mobile App',
+        description: 'Real time food ordering app , built with react,css , mongo db ,stripe',
         bgImage: '/work-2.png',
     },
     {
         title: 'Movie App',
-        description: 'Web Design',
+        description: 'Movie app for real time streaming, built with react,tmdb api,tailwind css etc',
         bgImage: '/work-3.png',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'Modern chat-app',
+        description: 'Fullstack chat-app developed to bring users closer built with ,react,tailwind css ,daisy ui, mongo db',
         bgImage: '/work-4.png',
     },
 ]
