@@ -64,10 +64,10 @@ const Header = () => {
           transition={{ duration: 0.6, delay: 1 }}
           viewport={{ once: false }}
           whileHover={{ scale: 1.05 }}
-          href="#contact"
+          href="https://diploma.gomycode.app/?id=31740059490238884"
           className="px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent"
         >
-          Contact Me
+          Certifications
           <Image
             src={assets.right_arrow_white}
             alt="Right Arrow"
