@@ -79,7 +79,7 @@ const NavBar = ({isDarkMode , setIsDarkMode}) => {
           </button>
 
           <a
-            href="#Contact-me"
+            href="#contact-me"
             className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-Ovo
              dark:border-white/50    "
           >
