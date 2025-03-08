@@ -9,15 +9,19 @@ const Footer = ({ isDarkMode }) => {
     <div className="mt-20">
       <div className="text-center">
         <Image src={assets.logo} alt="" className="w-36 mx-auto mb-2" />
-        <div className="flex w-max items-center gap-2 mx-auto">
+        <a
+          href="mailto:praiseolatunji22@gmail.com"
+          className="flex w-max items-center gap-2 mx-auto hover:underline"
+        >
           <Image
             src={isDarkMode ? assets.mail_icon_dark : assets.mail_icon}
-            alt=""
+            alt="Mail Icon"
             className="w-6"
           />
           praiseolatunji22@gmail.com
-        </div>
+        </a>
       </div>
+
       <div className="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6">
         <p>© 2025 Olatunji Praise. All Rights Reserved.</p>
         <ul className="flex items-center gap-10 justify-center mt-4 sm:mt-0">
