@@ -4,7 +4,7 @@ import { motion } from "framer-motion"; // Import motion
 
 const Work = ({ isDarkMode }) => {
   return (
-    <div id="work" className="w-full px-[12%] py-10 scroll-mt-20 ">
+    <div id="work" className="w-full px-[12%] py-10 scroll-mt-20">
       <motion.h4
         className="text-center mb-2 text-lg font-Outfit"
         initial={{ opacity: 0 }}
@@ -39,7 +39,7 @@ const Work = ({ isDarkMode }) => {
         highlights my ability to build efficient, scalable, and user-friendly
         solutions 🚀{" "}
         <b className="text-lg font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text animate-fadeIn">
-          Lets collaborate
+          Let's collaborate
         </b>{" "}
       </motion.p>
 
@@ -50,21 +50,32 @@ const Work = ({ isDarkMode }) => {
         transition={{ duration: 0.8, delay: 0.6 }}
       >
         {workData.map((project, index) => (
-          <div
-            className="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
+          <a
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
             key={index}
-            style={{ backgroundImage: `url(${project.bgImage})` }}
+            className="block"
           >
-            <div className="bg-white w-10/12 rounded-md absolute gap-4 bottom-5 left-1/2 -translate-x-1/2 flex items-center justify-between duration-500 group-hover:bottom-7">
-              <div>
-                <h2 className="font-semibold">{project.title}</h2>
-                <p className="text-sm text-gray-700 ">{project.description}</p>
-              </div>
-              <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-400 transition ">
-                <Image src={assets.send_icon} alt="send-icon" className="w-5" />
+            <div
+              className="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
+              style={{ backgroundImage: `url(${project.bgImage})` }}
+            >
+              <div className="bg-white w-10/12 rounded-md absolute gap-4 bottom-5 left-1/2 -translate-x-1/2 flex items-center justify-between duration-500 group-hover:bottom-7 p-3">
+                <div>
+                  <h2 className="font-semibold">{project.title}</h2>
+                  <p className="text-sm text-gray-700">{project.description}</p>
+                </div>
+                <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-400 transition">
+                  <Image
+                    src={assets.send_icon}
+                    alt="send-icon"
+                    className="w-5"
+                  />
+                </div>
               </div>
             </div>
-          </div>
+          </a>
         ))}
       </motion.div>
 

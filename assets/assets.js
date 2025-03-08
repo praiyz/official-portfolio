@@ -77,27 +77,36 @@ export const assets = {
 };
 
 export const workData = [
-    {
-        title: 'Africash figma-design',
-        description: 'Africash figma design clone built with next js , tailwind css etc',
-        bgImage: '/work-1.png',
-    },
-    {
-        title: 'Food Delivery app',
-        description: 'Real time food ordering app , built with react,css , mongo db ,stripe',
-        bgImage: '/work-2.png',
-    },
-    {
-        title: 'Movie App',
-        description: 'Movie app for real time streaming, built with react,tmdb api,tailwind css etc',
-        bgImage: '/work-3.png',
-    },
-    {
-        title: 'Modern chat-app',
-        description: 'Fullstack chat-app developed to bring users closer built with ,react,tailwind css ,daisy ui, mongo db',
-        bgImage: '/work-4.png',
-    },
-]
+  {
+    title: "Africash figma-design",
+    description:
+      "Africash figma design clone built with Next.js, Tailwind CSS, etc.",
+    bgImage: "/work-1.png",
+    link: "https://figma-design-1-qq1q.vercel.app/", // Update with the actual link
+  },
+  {
+    title: "Food Delivery app",
+    description:
+      "Real-time food ordering app, built with React, CSS, MongoDB, Stripe",
+    bgImage: "/work-2.png",
+    link: "https://frontend-buzn.onrender.com", // Update with the actual link
+  },
+  {
+    title: "Movie App",
+    description:
+      "Movie app for real-time streaming, built with React, TMDB API, Tailwind CSS, etc.",
+    bgImage: "/work-3.png",
+    link: "https://streamscape-xi.vercel.app/", // Update with the actual link
+  },
+  {
+    title: "Modern chat-app",
+    description:
+      "Full-stack chat app developed to bring users closer, built with React, Tailwind CSS, Daisy UI, MongoDB",
+    bgImage: "/work-4.png",
+    link: "https://buzztalk-chatapp-fullstack.onrender.com", // Update with the actual link
+  },
+];
+
 
 export const serviceData = [
     { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },

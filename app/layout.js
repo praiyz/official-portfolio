@@ -14,7 +14,8 @@ const ovo = Ovo({
 
 export const metadata = {
   title: "PRAIYZ-PORTFOLIO",
-  description: "Portfolio created with love by praiyz  name: Olatunji Praise occupation:Full Stack Developer",
+  description:
+    "Portfolio created with love ❤ by praiyz  name: Olatunji Praise occupation:Full Stack Developer",
 };
 
 export default function RootLayout({ children }) {
